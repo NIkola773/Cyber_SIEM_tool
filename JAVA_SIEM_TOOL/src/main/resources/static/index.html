@@ -265,7 +265,7 @@ document.getElementById("ipInputForm").addEventListener("submit", function(e) {
     .then(data => {
         ul2.innerHTML = "";
         
-        data.forEach(item => {          // ← ovo je falilo, data je NIZ
+        data.forEach(item => {         
             let li = document.createElement("li");
             li.textContent = `Port: ${item.port} - State: ${item.state}`;
             ul2.appendChild(li);
