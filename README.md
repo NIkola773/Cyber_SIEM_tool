@@ -59,8 +59,8 @@ src/
 ### Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/siem-tool.git
-cd siem-tool
+git clone https://github.com/NIkola773/Cyber_SIEM_tool.git
+cd Cyber_SIEM_tool
 ./mvnw spring-boot:run
 ```
 
