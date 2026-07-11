@@ -210,7 +210,7 @@ document.getElementById("ipInputForm").addEventListener("submit", function(e) {
         });
     })
     .catch(err => {
-        ul2.innerHTML = `<li style='color:orange'>Greška: ${err.message}</li>`;
+        ul2.innerHTML = `<li style='color:orange'>Error: ${err.message}</li>`;
         console.error(err);
     });
 });
